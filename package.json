@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite --host",
     "build": "run-p type-check \"build-only {@}\" --",
-    "lint": "eslint . --fix",
     "preview": "vite preview",
+    "android:dev": "pnpm run dev && npx cap run android",
+    "android:build": "pnpm run build && pnpm run copy android && npx cap run android",
+    "lint": "eslint . --fix",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "prepare": "husky"
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.17.0",
+    "@capacitor/assets": "^3.0.5",
     "@tsconfig/node22": "^22.0.2",
     "@types/node": "^22.15.32",
     "@vitejs/plugin-vue": "^6.0.0",
