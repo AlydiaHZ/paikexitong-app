@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "android:dev": "pnpm run dev && npx cap run android",
     "android:build": "pnpm run build && pnpm run copy android && npx cap run android",
-    "lint": "eslint . --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "prepare": "husky"
