@@ -8,7 +8,7 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "android:dev": "pnpm run dev && npx cap run android",
-    "android:build": "pnpm run build && pnpm run copy android && npx cap run android",
+    "android:build": "pnpm run build && npx cap copy android && npx cap run android",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build-only": "vite build",
@@ -39,5 +39,10 @@
     "vite": "^7.0.0",
     "vite-plugin-vue-devtools": "^7.7.7",
     "vue-tsc": "^2.2.10"
+  },
+  "pnpm": {
+    "overrides": {
+      "sharp": "0.34.1"
+    }
   }
 }
