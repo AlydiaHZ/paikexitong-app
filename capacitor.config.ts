@@ -1,3 +1,5 @@
+/// <reference types="@capacitor/status-bar" />
+
 import type { CapacitorConfig } from '@capacitor/cli'
 import process from 'node:process'
 
@@ -18,6 +20,13 @@ const config: CapacitorConfig = {
         },
       }
     : {}),
+  plugins: {
+    StatusBar: {
+      overlaysWebView: false,
+      style: 'LIGHT',
+      backgroundColor: '#ffffffff',
+    },
+  },
 }
 
 export default config

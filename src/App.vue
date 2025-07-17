@@ -1,9 +1,3 @@
-<script setup lang="ts">
-</script>
-
 <template>
-  <div>我笑了</div>
+  <routerView />
 </template>
-
-<style scoped>
-</style>
