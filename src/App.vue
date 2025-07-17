@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>114514</div>
+  <div>我笑了</div>
 </template>
 
 <style scoped>

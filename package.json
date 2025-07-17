@@ -13,6 +13,7 @@
     "lint:fix": "eslint . --fix",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
+    "assert":"npx @capacitor/assets generate --android",
     "prepare": "husky"
   },
   "dependencies": {
