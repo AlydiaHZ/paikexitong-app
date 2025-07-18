@@ -9,7 +9,7 @@
       </IonToolbar>
     </IonHeader>
     <IonContent>
-      <div class="example-content">
+      <div flex-center h-full>
         Home
       </div>
     </IonContent>
@@ -17,10 +17,4 @@
 </template>
 
 <style scoped>
-  .example-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
 </style>

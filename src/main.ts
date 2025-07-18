@@ -6,7 +6,8 @@ import App from './App.vue'
 
 import router from './router'
 
-import '@ionic/vue/css/core.css' // 核心样式
+// 核心样式
+import '@ionic/vue/css/core.css'
 // 可选样式
 import '@ionic/vue/css/normalize.css'
 import '@ionic/vue/css/structure.css'
@@ -19,6 +20,8 @@ import '@ionic/vue/css/flex-utils.css'
 import '@ionic/vue/css/display.css'
 
 import '@/styles/index.scss'
+
+import 'virtual:uno.css'
 
 const app = createApp(App)
 app.use(IonicVue)

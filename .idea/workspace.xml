@@ -5,39 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8cbcf6-77e8-4f18-a2df-924429d1a20f" name="Changes" comment="build: 添加 ionic 组件库">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/TabLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tabs/TabHome.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tabs/TabMessages.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tabs/TabProfile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uno.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/down/paikexitong/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/down/paikexitong/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabBar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopBar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BaseLayout.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/MainLayout.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/StatusLayout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/message/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/messages/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/profile/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/schedule/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/auto/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/auto/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tabs/TabHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tabs/TabHome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,7 +95,7 @@
       <recent name="D:\Project\github\paikexitong-app\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.android:build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="android:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -162,8 +148,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.android:build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.android:build" />
         <item itemvalue="npm.android:dev" />
         <item itemvalue="npm.android:start" />
         <item itemvalue="npm.lint" />
@@ -189,7 +175,7 @@
       <workItem from="1752681415626" duration="6788000" />
       <workItem from="1752720624484" duration="296000" />
       <workItem from="1752820085571" duration="140000" />
-      <workItem from="1752834626024" duration="241000" />
+      <workItem from="1752834626024" duration="5239000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init">
       <option name="closed" value="true" />
@@ -255,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752688226182</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="build: 添加 ionic 组件库">
+      <option name="closed" value="true" />
+      <created>1752834884040</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752834884040</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
