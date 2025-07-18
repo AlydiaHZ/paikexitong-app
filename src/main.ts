@@ -36,5 +36,5 @@ CapApp.addListener('backButton', () => {
   if (homeRoutes.includes(currentPath)) {
     CapApp.exitApp()
   }
-  router.back()
+  // router.back()
 })

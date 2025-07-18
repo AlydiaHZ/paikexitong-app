@@ -9,6 +9,6 @@ public class MainActivity extends BridgeActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getBridge().getWebView().setOverScrollMode(View.OVER_SCROLL_NEVER);
+        // getBridge().getWebView().setOverScrollMode(View.OVER_SCROLL_NEVER);
     }
 }

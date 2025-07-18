@@ -1,10 +1,10 @@
 <script setup lang="ts">
+import { IonPage, useIonRouter } from '@ionic/vue'
 import { ref } from 'vue'
-import { useRouter } from 'vue-router'
 
 const username = ref('')
 const password = ref('')
-const router = useRouter()
+const router = useIonRouter()
 function onLogin() {
   // 这里应调用后端API校验
   router.push('/home')
@@ -12,19 +12,22 @@ function onLogin() {
 </script>
 
 <template>
-  <div class="login-page">
+  <IonPage>
     <h2>登录</h2>
-    <form @submit.prevent="onLogin">
-      <input v-model="username" placeholder="用户名">
-      <input v-model="password" type="password" placeholder="密码">
-      <button type="submit">
-        登录
-      </button>
-    </form>
-    <div>
-      没有账号？<router-link to="/register">
-        注册
-      </router-link>
-    </div>
-  </div>
+    <ionList>
+      <ionItem>
+        <ionInput v-model="username" label="用户名" placeholder="请输入用户名" />
+      </ionItem>
+      <ionItem>
+        <ionInput v-model="password" label="密码" type="password" placeholder="请输入密码">
+          <template #end>
+            <ionInputPasswordToggle />
+          </template>
+        </ionInput>
+      </ionItem>
+    </ionList>
+    <ionButton @click="onLogin">
+      登录
+    </ionButton>
+  </IonPage>
 </template>

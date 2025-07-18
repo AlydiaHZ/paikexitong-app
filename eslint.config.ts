@@ -9,4 +9,7 @@ export default antfu({
     'android',
     'dist',
   ],
+  rules: {
+    'vue/no-deprecated-slot-attribute': 'off',
+  },
 })

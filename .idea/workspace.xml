@@ -4,8 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8cbcf6-77e8-4f18-a2df-924429d1a20f" name="Changes" comment="feat(app): rename and change logo">
+    <list default="true" id="6c8cbcf6-77e8-4f18-a2df-924429d1a20f" name="Changes" comment="build: 添加 ionic 组件库">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/TabLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/tabs/TabHome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/tabs/TabMessages.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/tabs/TabProfile.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/down/paikexitong/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/down/paikexitong/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BaseLayout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/MainLayout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/StatusLayout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/message/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/messages/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/profile/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/schedule/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/auto/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/auto/components.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +54,10 @@
     &quot;accountId&quot;: &quot;ed4b4557-c297-46a8-a5c3-127eed83b718&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/.pnpm/@ionic+vue@8.6.5_@stencil+c_59cd4f3c5e9a82e982f39c1e69550ab2/node_modules/@ionic/vue/dist/types/components/IonTabBar.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/.pnpm/@ionic+vue@8.6.5_@stencil+c_59cd4f3c5e9a82e982f39c1e69550ab2/node_modules/@ionic/vue/dist/types/index.d.ts" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
@@ -157,6 +188,8 @@
       <workItem from="1752668019771" duration="25000" />
       <workItem from="1752681415626" duration="6788000" />
       <workItem from="1752720624484" duration="296000" />
+      <workItem from="1752820085571" duration="140000" />
+      <workItem from="1752834626024" duration="241000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init">
       <option name="closed" value="true" />
@@ -244,6 +277,7 @@
     <MESSAGE value="build: add android dev script" />
     <MESSAGE value="build: add eslint script" />
     <MESSAGE value="feat(app): rename and change logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(app): rename and change logo" />
+    <MESSAGE value="build: 添加 ionic 组件库" />
+    <option name="LAST_COMMIT_MESSAGE" value="build: 添加 ionic 组件库" />
   </component>
 </project>

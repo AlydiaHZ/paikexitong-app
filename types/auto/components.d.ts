@@ -8,10 +8,22 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    IonApp: typeof import('@ionic/vue')['IonApp']
     IonButton: typeof import('@ionic/vue')['IonButton']
     IonContent: typeof import('@ionic/vue')['IonContent']
     IonHeader: typeof import('@ionic/vue')['IonHeader']
+    IonIcon: typeof import('@ionic/vue')['IonIcon']
+    IonInput: typeof import('@ionic/vue')['IonInput']
+    IonInputPasswordToggle: typeof import('@ionic/vue')['IonInputPasswordToggle']
+    IonItem: typeof import('@ionic/vue')['IonItem']
+    IonLabel: typeof import('@ionic/vue')['IonLabel']
+    IonList: typeof import('@ionic/vue')['IonList']
     IonPage: typeof import('@ionic/vue')['IonPage']
+    IonRouterOutlet: typeof import('@ionic/vue')['IonRouterOutlet']
+    IonTab: typeof import('@ionic/vue')['IonTab']
+    IonTabBar: typeof import('@ionic/vue')['IonTabBar']
+    IonTabButton: typeof import('@ionic/vue')['IonTabButton']
+    IonTabs: typeof import('@ionic/vue')['IonTabs']
     IonTitle: typeof import('@ionic/vue')['IonTitle']
     IonToolbar: typeof import('@ionic/vue')['IonToolbar']
     RouterLink: typeof import('vue-router')['RouterLink']

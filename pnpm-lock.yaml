@@ -72,6 +72,9 @@ importers:
       husky:
         specifier: ^9.1.7
         version: 9.1.7
+      ionicons:
+        specifier: ^8.0.13
+        version: 8.0.13
       jiti:
         specifier: ^2.4.2
         version: 2.4.2
@@ -2367,6 +2370,9 @@ packages:
 
   ionicons@7.4.0:
     resolution: {integrity: sha512-ZK94MMqgzMCPPMhmk8Ouu6goyVHFIlw/ACP6oe3FrikcI0N7CX0xcwVaEbUc0G/v3W0shI93vo+9ve/KpvcNhQ==}
+
+  ionicons@8.0.13:
+    resolution: {integrity: sha512-2QQVyG2P4wszne79jemMjWYLp0DBbDhr4/yFroPCxvPP1wtMxgdIV3l5n+XZ5E9mgoXU79w7yTWpm2XzJsISxQ==}
 
   is-arrayish@0.2.1:
     resolution: {integrity: sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==}
@@ -6421,6 +6427,10 @@ snapshots:
   ini@4.1.3: {}
 
   ionicons@7.4.0:
+    dependencies:
+      '@stencil/core': 4.36.0
+
+  ionicons@8.0.13:
     dependencies:
       '@stencil/core': 4.36.0
 
